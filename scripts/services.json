@@ -1,0 +1,34 @@
+{
+  "services": [
+    {
+      "name": "Atlas Payments",
+      "slug": "payments",
+      "description": "Core payment processing — intents, captures, refunds, balance, and payment methods",
+      "tags": ["Ops", "Auth", "Customers", "PaymentMethods", "SetupIntents", "PaymentIntents", "Refunds", "Balances", "Ledger"]
+    },
+    {
+      "name": "Atlas Billing",
+      "slug": "billing",
+      "description": "Subscription billing — products, prices, coupons, subscriptions, invoices, and credit notes",
+      "tags": ["Products", "Prices", "Coupons", "PromoCodes", "TaxRates", "Subscriptions", "Invoices", "InvoiceItems", "CreditNotes"]
+    },
+    {
+      "name": "Atlas Risk & Disputes",
+      "slug": "risk",
+      "description": "Risk engine, fraud signals, dispute management, evidence, and representment",
+      "tags": ["RiskSignals", "RiskRules", "RiskDecisions", "RiskReviews", "Disputes", "DisputeEvidence", "Representment"]
+    },
+    {
+      "name": "Atlas Treasury",
+      "slug": "treasury",
+      "description": "Transfers, reserves, holds, reconciliation, and settlement operations",
+      "tags": ["Transfers", "Reserves", "Reconciliation"]
+    },
+    {
+      "name": "Atlas Platform",
+      "slug": "platform",
+      "description": "Platform operations — orgs, onboarding, webhooks, events, reports, exports, and cron jobs",
+      "tags": ["Orgs", "Teams", "Onboarding", "Underwriting", "Events", "Webhooks", "Reports", "Exports", "Cron"]
+    }
+  ]
+}
